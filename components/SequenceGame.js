@@ -174,7 +174,7 @@ export default function SequenceGame() {
     content = (
       <div className="wrap">
         <div className="topbar">{themeToggle}</div>
-        <h1 className="brand">จับลำดับเลข</h1>
+        <h1 className="brand">sequences-game</h1>
 
         <div className="card setup-card">
           <p className="eyebrow">ขั้นที่ 1: ชื่อผู้เล่น</p>
@@ -211,7 +211,7 @@ export default function SequenceGame() {
     content = (
       <div className="wrap">
         <div className="topbar">{themeToggle}</div>
-        <h1 className="brand">จับลำดับเลข</h1>
+        <h1 className="brand">sequences-game</h1>
 
         <div className="card setup-card">
           <p className="eyebrow">ขั้นที่ 2: เลือกโหมด</p>
@@ -246,7 +246,7 @@ export default function SequenceGame() {
     content = (
       <div className="wrap">
         <div className="topbar">{themeToggle}</div>
-        <h1 className="brand">จับลำดับเลข</h1>
+        <h1 className="brand">sequences-game</h1>
 
         <div className="card setup-card">
           <p className="eyebrow">ขั้นที่ 3: เลือกระดับความยาก</p>
@@ -277,7 +277,7 @@ export default function SequenceGame() {
     content = (
       <div className="wrap">
         <div className="topbar">{themeToggle}</div>
-        <h1 className="brand">จับลำดับเลข</h1>
+        <h1 className="brand">sequences-game</h1>
 
         <div className="card setup-card">
           <p className="eyebrow">ขั้นที่ {subject === "textbook" ? 3 : 4}: เลือกเวลาที่กำหนด</p>
@@ -312,7 +312,7 @@ export default function SequenceGame() {
     content = (
       <div className="wrap">
         <div className="topbar">{themeToggle}</div>
-        <h1 className="brand">จับลำดับเลข</h1>
+        <h1 className="brand">sequences-game</h1>
         <p className="tagline">หมดเวลาแล้ว คุณ{playerName.trim() || "ผู้เล่น"}</p>
 
         <div className="card summary-card">
@@ -344,7 +344,7 @@ export default function SequenceGame() {
     content = (
       <div className="wrap">
         <div className="topbar">{themeToggle}</div>
-        <h1 className="brand">จับลำดับเลข</h1>
+        <h1 className="brand">sequences-game</h1>
         <p className="tagline">
           {playerName} · {SUBJECT_LABELS[subject]}
           {subject !== "textbook" && <> · {DIFFICULTY_LABELS[difficulty]}</>}
