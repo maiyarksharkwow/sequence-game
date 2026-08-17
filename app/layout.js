@@ -20,7 +20,7 @@ const inter = Inter({
 });
 
 export const metadata = {
-  title: "จับลำดับเลข — เกมทายลำดับตัวเลข",
+  title: "sequence-game",
   description: "จับรูปแบบให้ได้ แล้วเติมตัวเลขที่หายไป",
 };
 
