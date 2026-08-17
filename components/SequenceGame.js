@@ -158,7 +158,7 @@ export default function SequenceGame() {
     content = (
       <div className="wrap">
         <div className="topbar">{themeToggle}</div>
-        <h1 className="brand">จับลำดับเลข</h1>
+        <h1 className="brand">sequences-game</h1>
         <p className="tagline">จับรูปแบบให้ได้ แล้วเติมตัวเลขที่หายไป</p>
 
         <div className="card home-card">
