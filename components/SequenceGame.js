@@ -492,7 +492,7 @@ function Leaderboard({ entries, highlightDate }) {
           </tr>
         </thead>
         <tbody>
-          {entries.slice(0, 10).map((e, i) => (
+          {entries.slice(0, 100).map((e, i) => (
             <tr key={e.date} className={e.date === highlightDate ? "highlight" : ""}>
               <td>{i + 1}</td>
               <td>{e.name}</td>
